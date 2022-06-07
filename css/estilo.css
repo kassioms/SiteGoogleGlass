@@ -6,7 +6,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #white;
+    background-color: #ffffff;
     color: rgba(0,0,0,1);
 }
 
@@ -15,29 +15,23 @@ div#interface {
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
     padding: 10px;
-
 }
 p {
     text-align: justify;
     text-indent: 50px;
 }
-
 a {
     color: #606060;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
 header#cabecalho img#icone {
     position: absolute;
     left: 780px;
     top: 70px;
-
 }
-
 header#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 150px;
@@ -101,7 +95,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
+    left: 510px;
 }
 
 nav#menu li{
@@ -158,10 +152,6 @@ header#cabecalho-artigo h1 {
     margin-top: 0px;
 }
 
-.direita {
-    text-align: right;
-}
-
 header#cabecalho-artigo h2 {
     font-size: 13pt;
     color: #cecece;
@@ -171,6 +161,10 @@ header#cabecalho-artigo h2 {
 header#cabecalho-artigo h3 {
     font-size: 12px;
     color: #606060;    
+}
+
+.direita {
+    text-align: right;
 }
 
 table#tabelaspec {
