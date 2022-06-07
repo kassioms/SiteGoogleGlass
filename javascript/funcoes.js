@@ -1,4 +1,3 @@
-function mudaFoto (foto)
-{
+function mudafoto (foto) {
     document.getElementById("icone").src = foto;
 }

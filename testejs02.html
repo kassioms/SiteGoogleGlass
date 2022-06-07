@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+	
 <head>
-    <title>Acenda a lâmpada</title>
-    <meta charset="UTF-8">
-    <h1>Acenda a Lâmpada</h1>
-    <script>
-        function acendeLampada() {
-            document.getElementById("luz").src = "imagens/lampada-acesa.jpg"
-        }
-        function apagaLampada() {
-            document.getElementById("luz").src = "imagens/lampada-apagada.jpg"
-        }
-        function quebraLampada () {
-            document.getElementById("luz").src = "imagens/lampada-quebrada.jpg"
-        }
-    </script>
-    <img src="imagens/lampada-apagada.jpg" id="luz" onmousemove="acendeLampada()" onmouseout="apagaLampada()" onclick="quebraLampada()"/>
+	<meta charset="utf-8">
+	<title>Teste JavaScript</title>
+	<script type="text/javascript">
+		function acendeLampada() {
+			document.getElementById("luz").src = "imagens/lampada-acesa.jpg";
+		}
+		function apagaLampada() {
+			document.getElementById("luz").src = "imagens/lampada-apagada.jpg";
+		}
+		function quebraLampada () {
+			document.getElementById("luz").src = "imagens/lampada-quebrada.jpg";
+		}
+
+	</script>
 </head>
 <body>
-    
+	<h1>Acenda a Lâmpada</h1>
+	<img src="imagens/lampada-apagada.jpg" id="luz" onmousemove="acendeLampada()"onmouseout="apagaLampada()" onclick="quebraLampada()"/>
+
 </body>
 </html>
